@@ -1,0 +1,9 @@
+.form { display: flex; max-width: 560px; flex-direction: column; gap: 16px; }
+.label { color: var(--color-muted); font-size: 13px; font-weight: 600; }
+.textareaWrap, .file { display: flex; flex-direction: column; gap: 6px; }
+.textarea { padding: 12px 14px; border: 1px solid var(--color-border); border-radius: 8px; font: inherit; resize: vertical; outline: none; }
+.textarea:focus { border-color: var(--color-primary); }
+.file input { font-size: 14px; }
+.file small { color: var(--color-muted); font-size: 12px; }
+.error { color: #b0001a; font-size: 13px; }
+.actions { display: flex; justify-content: flex-end; gap: 10px; }

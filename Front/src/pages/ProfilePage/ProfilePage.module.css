@@ -1,0 +1,16 @@
+.page { display: flex; flex-direction: column; gap: 28px; }
+.header { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--color-border); }
+.info { display: flex; flex-direction: column; gap: 4px; }
+.name { font-size: 22px; font-weight: 800; }
+.email, .meta { margin: 0; color: var(--color-muted); font-size: 13px; }
+.actions { margin-left: auto; }
+.panel { padding: 20px; border: 1px solid var(--color-border); border-radius: 10px; background: #fff; }
+.panelTitle { margin-bottom: 12px; font-size: 16px; font-weight: 700; }
+.listSection { display: flex; flex-direction: column; gap: 16px; }
+.listTitle { font-size: 18px; font-weight: 700; }
+.empty { color: var(--color-muted); }
+.videoList { display: flex; flex-direction: column; gap: 20px; }
+.videoItem { display: grid; grid-template-columns: minmax(260px, 320px) 1fr; align-items: center; gap: 16px; }
+.itemActions { display: flex; gap: 10px; }
+.error { color: #b0001a; }
+@media (max-width: 640px) { .videoItem { grid-template-columns: 1fr; } }

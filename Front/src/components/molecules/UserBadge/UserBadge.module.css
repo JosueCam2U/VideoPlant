@@ -1,0 +1,4 @@
+.badge { display: flex; align-items: center; gap: 10px; }
+.meta { display: flex; flex-direction: column; line-height: 1.2; }
+.name { font-size: 14px; font-weight: 600; }
+.sub { color: var(--color-muted); font-size: 12px; }

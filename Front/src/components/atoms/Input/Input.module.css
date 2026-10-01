@@ -1,0 +1,5 @@
+.wrap { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.label { color: var(--color-muted); font-size: 13px; font-weight: 600; }
+.input { padding: 12px 14px; border: 1px solid var(--color-border); border-radius: 8px; background: #fff; font-size: 15px; outline: none; }
+.input:focus { border-color: var(--color-primary); }
+.error { color: #b0001a; font-size: 12px; }

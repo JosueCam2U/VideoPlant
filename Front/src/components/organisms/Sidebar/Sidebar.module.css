@@ -1,0 +1,8 @@
+.sidebar { position: fixed; inset: 0 auto 0 0; z-index: 20; width: var(--sidebar-w); border-right: 1px solid var(--color-border); background: var(--color-surface); }
+.nav { display: flex; height: 100%; flex-direction: column; align-items: center; gap: 20px; padding: 20px 0; }
+.logo { display: grid; width: 44px; height: 44px; place-items: center; border-radius: 50%; background: var(--color-primary); color: #fff; }
+.list { display: flex; width: 100%; flex-direction: column; align-items: center; gap: 8px; }
+.link { display: grid; width: 48px; height: 48px; place-items: center; border-radius: 12px; color: var(--color-text); }
+.link:hover, .active { background: #f0f0f0; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 640px) { .sidebar { position: static; width: 100%; height: 58px; border-right: 0; border-bottom: 1px solid var(--color-border); } .nav { flex-direction: row; justify-content: space-between; padding: 6px 14px; } .list { width: auto; flex-direction: row; } }

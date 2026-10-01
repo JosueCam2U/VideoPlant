@@ -1,0 +1,10 @@
+.card { display: flex; min-width: 0; flex-direction: column; gap: 10px; }
+.thumbLink { display: block; }
+.thumb { margin: 0; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; background: #eee; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .25s; }
+.thumbLink:hover img { transform: scale(1.03); }
+.body { display: flex; align-items: flex-start; gap: 12px; }
+.info { display: flex; min-width: 0; flex-direction: column; gap: 3px; }
+.title { display: -webkit-box; overflow: hidden; font-size: 15px; font-weight: 600; line-height: 1.3; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.meta, .stats { margin: 0; color: var(--color-muted); font-size: 13px; }
+.author:hover { color: var(--color-text); }

@@ -1,0 +1,6 @@
+.topbar { position: fixed; z-index: 10; top: 0; right: 0; left: var(--sidebar-w); display: flex; height: var(--topbar-h); align-items: center; gap: 20px; padding: 0 24px; border-bottom: 1px solid var(--color-border); background: var(--color-surface); }
+.actions { display: flex; align-items: center; gap: 14px; margin-left: auto; }
+.upload, .logout { color: var(--color-text); }
+.signin { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--color-border); border-radius: 999px; font-weight: 600; }
+.signin:hover { background: #f0f0f0; }
+@media (max-width: 640px) { .topbar { position: sticky; left: 0; padding: 0 12px; } }

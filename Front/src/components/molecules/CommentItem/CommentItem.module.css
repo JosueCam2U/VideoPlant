@@ -1,0 +1,5 @@
+.item { display: flex; gap: 12px; padding: 10px 0; }
+.body { display: flex; min-width: 0; flex-direction: column; gap: 4px; }
+.head { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 14px; }
+.time { color: var(--color-muted); font-size: 12px; font-weight: 400; }
+.content { margin: 0; font-size: 14px; line-height: 1.45; overflow-wrap: anywhere; }

@@ -1,0 +1,4 @@
+.page { display: flex; flex-direction: column; gap: 20px; }
+.head { display: flex; align-items: baseline; justify-content: space-between; }
+.title { font-size: 20px; font-weight: 700; }
+.error { color: #b0001a; }
